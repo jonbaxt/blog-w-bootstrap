@@ -1,32 +1,51 @@
 .App {
-  text-align: center;
+  color: green;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 0.5px dashed black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+h1, h2, h3, h4, h5, h6, p, div, span, article, section, form {
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.HeaderArea {
+  width: 100%;
+  height: 40px;
+  border: 0.8px dashed purple;
+}
+
+.NavBarMain {
+  width: 100%;
+  /* height: 40px; */
+  /* border: 0.9px solid green; */
+}
+
+.BlogBody {
+  width: 100%;
+  height: 140vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  border: 1px solid yellow;
 }
 
-.App-link {
-  color: #61dafb;
+.RightSideBlogBody {
+  width: 25%;
+  height: 79vh;
+  border: 2px dotted orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TabsMain {
+  width: 75%;
+  /* height: 79vh; */
+  border: 2px dashed blue;
 }
+
+.ArticlesMain {
+  width: 100%;
+  height: 79vh;
+  border: 2px dashed blue;
+}
+
+
