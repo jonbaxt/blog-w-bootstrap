@@ -33,7 +33,7 @@ export default class TabsSection extends Component {
                             className={classnames({ active: this.state.activeTab === '1' })}
                             onClick={() => { this.toggle('1'); }}
                         >
-                            Tab1
+                            Current Blogs
             </NavLink>
                     </NavItem>
                     <NavItem>
@@ -41,7 +41,7 @@ export default class TabsSection extends Component {
                             className={classnames({ active: this.state.activeTab === '2' })}
                             onClick={() => { this.toggle('2'); }}
                         >
-                            Moar Tabs
+                            Sign Up
             </NavLink>
                     </NavItem>
                 </Nav>

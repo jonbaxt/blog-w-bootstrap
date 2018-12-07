@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import NavApp from './Components/NavApp/NavApp';
 import TabsSection from './Components/TabsSection/TabsSection';
-import Articles from './Components/Articles/Articles';
+import SubscribeToNewsLetter from './Components/Right Section/SubscribeToNewsLetter';
+// import Articles from './Components/Articles/Articles';
 import './App.css';
 
 
@@ -26,6 +27,8 @@ class App extends Component {
 
           <div className='RightSideBlogBody'>
             <h4>Blog Body</h4>
+            <SubscribeToNewsLetter />
+          
           </div>
 
         </div>
